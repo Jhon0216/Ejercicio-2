@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es"> 
+   <head>
+    <h1><strong>Formulario de Inscripcion</h1></strong>
+   </head>
+   <body>
+    <form action="Ejemplo2.html" method="POST">
+	   <p><strong>Nombre:</strong><input type="text" name="usuario"/><strong>Apellidos:</strong><input type="text" name="usuario"/></p>
+	   <p><strong>Direccion:</strong><input type="text" name="usuario"/><strong>Telefono:</strong><input type="text" name="usuario"/></p> 
+	   <p><strong>Email:</strong><input type="email" id="emailAddress"/><strong>Contraseña:</strong><input type="password" name="password"/></p>
+	   <p>
+       <strong>Becado:</strong>
+	     <input type="checkbox" name="firstcbox" value="gusta"> Si
+         <input type="checkbox" name="secondcbox" value="gusta"> No
+       </p>
+	   <p><strong>Fecha de nacimiento:</strong><input type="date" name="fechaNacimiento">
+       <strong>Color distintivo:</strong><input type="color" name="colordistintivo" list="listacolores">
+       </p>
+       <datalist id="listacolores">
+       <option value="#fdddca">
+       <option value="#804000">
+       </datalist>
+	   <p><strong>Acerca de mi:</strong></p>
+	   <p><textarea></textarea></p>
+	   <p>
+	   <strong>Genero:</strong>
+	   <input type="radio" name="genero" value="femenino"> Femenino
+	   <input type="radio" name="genero" value="masculino"> Masculino
+	   </p>
+	   <p>
+	   <strong>Area:</strong>
+	   <select name="select">
+	   <option value="Select">Seleccione una opcion</option>
+       <option value="Dereho">Dereho</option>
+       <option value="Ingenieria">Ingenieria</option>
+       <option value="Medicina">Medicina</option>
+       </select>
+	   </p>
+	   <p>
+	   <input type="submit" value="Enviar"/> <input type="reset" value="Limpiar"/>
+	   </p>
+   </body>
+   </html>
